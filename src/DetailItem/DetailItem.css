@@ -1,0 +1,73 @@
+.DetailItem {
+  padding: 20px;
+  background: #f5f5f5;
+  flex-grow: 1;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  position: relative; }
+  .DetailItem .Top {
+    display: flex; }
+  .DetailItem h1 {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0 0 0 20px; }
+  .DetailItem .DetailContent {
+    display: flex;
+    margin-top: 20px;
+    text-align: left; }
+    .DetailItem .DetailContent > * {
+      flex: 50%; }
+      .DetailItem .DetailContent > *:not(:first-child) {
+        margin-left: 20px; }
+    .DetailItem .DetailContent .Comments .Comment {
+      background-color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      border: 2px solid rgba(0, 0, 0, 0.12);
+      margin-bottom: 10px; }
+      .DetailItem .DetailContent .Comments .Comment .Author {
+        font-weight: 600; }
+      .DetailItem .DetailContent .Comments .Comment p {
+        margin: 0; }
+    .DetailItem .DetailContent form {
+      display: flex;
+      flex-direction: column;
+      padding: 10px 20px;
+      border: 2px solid rgba(0, 0, 0, 0.12);
+      border-radius: 8px;
+      background-color: white; }
+      .DetailItem .DetailContent form input[type="text"] {
+        background-color: none;
+        font-family: "Montserrat", sans-serif;
+        border: none;
+        font-weight: 600;
+        font-size: 18px; }
+      .DetailItem .DetailContent form textarea {
+        resize: vertical;
+        font-family: "Montserrat", sans-serif;
+        border: none;
+        font-size: 18px;
+        padding: 0; }
+  .DetailItem img {
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid rgba(0, 0, 0, 0.12); }
+  .DetailItem .Images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px; }
+    .DetailItem .Images img {
+      cursor: pointer; }
+
+@media screen and (max-width: 1000px) {
+  .DetailItem .Top {
+    flex-direction: column;
+    align-items: center; }
+    .DetailItem .Top > * {
+      margin-bottom: 10px; }
+  .DetailItem .DetailContent {
+    flex-direction: column; }
+    .DetailItem .DetailContent > * {
+      flex: none; }
+      .DetailItem .DetailContent > *:not(:first-child) {
+        margin: 20px 0 0 0; } }

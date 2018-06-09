@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css?family=Jua|Montserrat");
+html {
+  height: 100%;
+  margin: 0; }
+
+body {
+  height: 100%;
+  margin: 0;
+  background-color: green; }
+
+#root {
+  min-height: 100%;
+  display: flex; }
+
+.App {
+  min-height: 100%;
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  position: relative; }
+  .App:before {
+    top: 0;
+    left: 0;
+    width: 0;
+    display: block;
+    content: "";
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 4px;
+    position: absolute; }
+  .App.Loading:before {
+    animation: grow-width 0.5s; }
+
+@keyframes grow-width {
+  to {
+    width: 100%; } }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Jua", sans-serif; }
+
+.Header {
+  display: flex;
+  align-items: center; }
+  .Header input {
+    color: white;
+    background: none;
+    border: none;
+    padding: 8px 20px;
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    border-radius: 4px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    outline: none; }
+    .Header input:hover {
+      border-color: rgba(255, 255, 255, 0.4); }
+    .Header input:focus {
+      border-color: rgba(255, 255, 255, 0.6); }
+    .Header input::placeholder {
+      color: rgba(255, 255, 255, 0.6); }
+
+button, input[type=submit] {
+  background: none;
+  border: 2px solid rgba(27, 136, 0, 0.2);
+  border-radius: 4px;
+  line-height: 24px;
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: green;
+  padding: 8px 20px;
+  outline: none;
+  cursor: pointer;
+  word-break: keep-all; }
+  button:hover, input[type=submit]:hover {
+    background-color: rgba(0, 0, 0, 0.1); }
+  button:active, input[type=submit]:active {
+    background-color: rgba(0, 0, 0, 0.2); }
+
+.Header button {
+  color: white;
+  border-color: rgba(255, 255, 255, 0.12);
+  display: flex;
+  padding: 0;
+  margin-left: 20px; }
+  .Header button:hover {
+    background-color: rgba(255, 255, 255, 0.1); }
+  .Header button:active {
+    background-color: rgba(255, 255, 255, 0.2); }
+  .Header button div {
+    display: flex;
+    height: 38px;
+    align-items: center;
+    padding: 0 8px; }
+    .Header button div img {
+      opacity: 0.8; }
+    .Header button div.Active {
+      background-color: rgba(0, 0, 0, 0.2); }
+
+.Header .Searchbar {
+  display: flex; }
+
+.Content {
+  padding: 20px;
+  background: white;
+  flex-grow: 1;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px; }
+
+.Items {
+  opacity: 1;
+  transform: none;
+  transition: opacity 0.3s ease, transform 0.3s ease; }
+
+.Loading .Items {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: none; }
+
+.List .Item:not(:last-child) {
+  margin-bottom: 20px; }
+
+.Grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px; }
+
+.Price {
+  font-size: 22px;
+  font-weight: 600; }
+
+.Overlay {
+  background-color: green;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 3;
+  opacity: 1;
+  animation: remove-opacity 0.4s ease 3.8s;
+  animation-fill-mode: forwards;
+  pointer-events: none; }
+
+@keyframes remove-opacity {
+  99% {
+    opacity: 0; }
+  100% {
+    opacity: 0;
+    display: none; } }
+
+@media screen and (max-width: 1000px) {
+  .Header {
+    flex-direction: column;
+    align-items: flex-start; }
+  .Grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); }
+  .Header .Searchbar {
+    margin-bottom: 20px;
+    padding: 0 20px;
+    display: flex;
+    align-self: stretch; }
+    .Header .Searchbar input {
+      flex-grow: 1;
+      width: 0; } }

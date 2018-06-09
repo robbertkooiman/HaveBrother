@@ -1,0 +1,52 @@
+.Logo #Draw-in {
+  animation: draw-in 2s linear;
+  animation-fill-mode: forwards; }
+
+.LogoWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  width: 147px;
+  height: 58px;
+  align-items: center;
+  cursor: pointer; }
+
+.AnimationLogo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -29px -73px;
+  transform: scale(2);
+  animation: to-original-position 1.2s ease 2.8s;
+  animation-fill-mode: forwards;
+  z-index: 5; }
+
+@keyframes to-original-position {
+  to {
+    top: 30px;
+    left: 30px;
+    margin: 0;
+    transform: none; } }
+
+.Menu {
+  position: absolute;
+  height: 24px;
+  margin-top: -12px;
+  top: 60px;
+  left: -8px; }
+
+.Subtitle {
+  margin: 7px 0 0;
+  font-size: 14px;
+  animation: appear 0.2s ease 2.4s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  font-family: "Jua", sans-serif; }
+
+@keyframes draw-in {
+  to {
+    stroke-dashoffset: 0; } }
+
+@keyframes appear {
+  to {
+    opacity: 0.8; } }
