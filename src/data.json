@@ -9,22 +9,16 @@
     "price": 19.99,
     "images": [
       {
-        "thumb":
-          "http://www.hasbrotoyshop.com/wcsstore/HTSCatalogAssetStore/common/productimages/en_US/837112c950569047f55cef4d72a992c7/8C976D7250569047F5A0458AE11BE799.jpg",
         "original":
-          "http://www.hasbrotoyshop.com/wcsstore/HTSCatalogAssetStore/common/productimages/en_US/837112c950569047f55cef4d72a992c7/aa6a49bd4fbe1f00d98686f344710ac60cea7721.jpg"
+          "https://images-na.ssl-images-amazon.com/images/I/71ugsNkWkFL._AC_SL1500_.jpg"
       },
       {
-        "thumb":
-          "http://www.hasbrotoyshop.com/wcsstore/HTSCatalogAssetStore/common/productimages/en_US/837112c950569047f55cef4d72a992c7/1f35c989d98c7c9fbea47172e70717455c357945.jpg",
         "original":
-          "http://www.hasbrotoyshop.com/wcsstore/HTSCatalogAssetStore/common/productimages/en_US/837112c950569047f55cef4d72a992c7/1f35c989d98c7c9fbea47172e70717455c357945.jpg"
+          "https://images-na.ssl-images-amazon.com/images/I/81Avr3tC7mL._AC_SL1500_.jpg"
       },
       {
-        "thumb":
-          "http://www.hasbrotoyshop.com/wcsstore/HTSCatalogAssetStore/common/productimages/en_US/837112c950569047f55cef4d72a992c7/bf86954fe2e4abc87345159eb4b0e0a580e31685.jpg",
         "original":
-          "http://www.hasbrotoyshop.com/wcsstore/HTSCatalogAssetStore/common/productimages/en_US/837112c950569047f55cef4d72a992c7/bf86954fe2e4abc87345159eb4b0e0a580e31685.jpg"
+          "https://images-na.ssl-images-amazon.com/images/I/71Wj6J3AadL._AC_SL1500_.jpg"
       }
     ]
   },
@@ -38,22 +32,16 @@
     "price": 19.99,
     "images": [
       {
-        "thumb":
-          "http://www.hasbrotoyshop.com/wcsstore/HTSCatalogAssetStore/common/productimages/en_US/c7550c585056900b100a3e6eb148c8a8/2C27CA7C50569047F541378FC0CC4371.jpg",
         "original":
-          "http://www.hasbrotoyshop.com/wcsstore/HTSCatalogAssetStore/common/productimages/en_US/c7550c585056900b100a3e6eb148c8a8/67833b645dfeea208b90ca902dcf30c9f61b9d61.jpg"
+          "https://images-na.ssl-images-amazon.com/images/I/51E83pyZMvL._AC_SL1024_.jpg"
       },
       {
-        "thumb":
-          "http://www.hasbrotoyshop.com/wcsstore/HTSCatalogAssetStore/common/productimages/en_US/c7550c585056900b100a3e6eb148c8a8/008C276350569047F5A134E32DD71CFF.jpg",
         "original":
-          "http://www.hasbrotoyshop.com/wcsstore/HTSCatalogAssetStore/common/productimages/en_US/c7550c585056900b100a3e6eb148c8a8/008C0B9E50569047F5B3BE057AF8E9D5.jpg"
+          "https://images-na.ssl-images-amazon.com/images/I/61QWXmSC%2BUL._AC_SL1024_.jpg"
       },
       {
-        "thumb":
-          "http://www.hasbrotoyshop.com/wcsstore/HTSCatalogAssetStore/common/productimages/en_US/c7550c585056900b100a3e6eb148c8a8/2C27D74D50569047F5CB41EFCEE9DB10.jpg",
         "original":
-          "http://www.hasbrotoyshop.com/wcsstore/HTSCatalogAssetStore/common/productimages/en_US/c7550c585056900b100a3e6eb148c8a8/8f8b9f62e6185a999a0e2befb6c942e23c295804.jpg"
+          "https://images-na.ssl-images-amazon.com/images/I/81hLRjaEgtL._AC_SL1500_.jpg"
       }
     ]
   },
@@ -67,16 +55,12 @@
     "price": 14.99,
     "images": [
       {
-        "thumb":
-          "http://www.hasbrotoyshop.com/wcsstore/HTSCatalogAssetStore/common/productimages/en_US/31e606b450569047f58a6182079d2e2f/c8faf38ff39eff70a0c77de21dd3a0aa96937cf5.jpg",
         "original":
-          "http://www.hasbrotoyshop.com/wcsstore/HTSCatalogAssetStore/common/productimages/en_US/31e606b450569047f58a6182079d2e2f/c8faf38ff39eff70a0c77de21dd3a0aa96937cf5.jpg"
+          "https://media.kohlsimg.com/is/image/kohls/2236740"
       },
       {
-        "thumb":
-          "http://www.hasbrotoyshop.com/wcsstore/HTSCatalogAssetStore/common/productimages/en_US/31e606b450569047f58a6182079d2e2f/c4e3ea234c60bdb6d0038fbdb6722db5424b695d.jpg",
         "original":
-          "http://www.hasbrotoyshop.com/wcsstore/HTSCatalogAssetStore/common/productimages/en_US/31e606b450569047f58a6182079d2e2f/c4e3ea234c60bdb6d0038fbdb6722db5424b695d.jpg"
+          "https://media.kohlsimg.com/is/image/kohls/2236740_ALT"
       }
     ]
   }

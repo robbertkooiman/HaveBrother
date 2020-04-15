@@ -72,7 +72,7 @@ class DetailItem extends Component {
       images.push(
         <img
           key={i}
-          src={this.images[i].thumb}
+          src={this.images[i].original}
           alt="Product thumbnail"
           onClick={this.selectImage.bind(this, i)}
         />
